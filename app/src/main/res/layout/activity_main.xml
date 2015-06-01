@@ -1,0 +1,27 @@
+<ui.sxy.com.touchevent.ViewGroupA xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ui.sxy.com.touchevent.ViewGroupB
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:background="@android:color/holo_red_dark"
+        >
+        <ui.sxy.com.touchevent.ViewGroupC
+            android:layout_width="300dp"
+            android:layout_height="400dp"
+            android:background="@android:color/holo_green_dark"
+            >
+        <ui.sxy.com.touchevent.ViewD
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@android:color/white"
+            />
+
+        </ui.sxy.com.touchevent.ViewGroupC>
+
+    </ui.sxy.com.touchevent.ViewGroupB>
+
+</ui.sxy.com.touchevent.ViewGroupA>
